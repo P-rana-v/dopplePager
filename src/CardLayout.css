@@ -1,0 +1,50 @@
+/* Container to hold the cards */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Individual card styling */
+  .card {
+    flex-basis: 25%;
+    margin-right: 100px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 22%; /* To fit 4 cards with some space between them */
+    height: 30vh; /* 30% of the screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  /* Yellow section at the top of the card */
+  .card-top {
+    background-color: #fbb034;
+    height: 30%; /* Adjust this to control the height of the yellow part */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  /* Card content */
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card-content h3 {
+    font-size: 1.2rem;
+    margin: 0 0 10px 0;
+    color: #333;
+  }
+  
+  .card-content p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  

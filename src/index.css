@@ -1,0 +1,102 @@
+html,body,#root,.app {
+    width: 100%;
+    margin: 0;
+    font-family: 'Poppins';
+    background-color: #1F1F1F;
+    height: 100%;
+    color: white;
+}
+
+nav {
+  background-color: beige;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 18%;
+}
+
+nav > h1 {
+  color: black;
+}
+
+nav>button {
+  background-color: #fbb034; /* Yellow background */
+  color: black;              /* Black text */
+  border: none;              /* No border */
+  border-radius: 25px;      /* Rounded corners */
+  padding: 10px 20px;       /* Vertical and horizontal padding */
+  font-size: 16px;          /* Font size */
+  cursor: pointer;           /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.3s; /* Transition effects */
+}
+
+nav>button:hover {
+  background-color: #f78c24; /* Darker yellow on hover */
+  transform: scale(1.05);    /* Slightly scale up the button */
+}
+
+nav>button:focus {
+  outline: none;              /* Remove outline */
+}
+
+.hero {
+  z-index: 1;
+  width: 100%;
+  height: 82%;
+  background-color: rgb(255, 255, 218);
+}
+
+.about-us {
+  background-color: antiquewhite;
+  width: 100%;
+}
+
+.about-container {
+  display: flex;
+}
+
+.about-container > div {
+  flex-basis: 50%;
+  height: 100vh;
+}
+
+.icon {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  background-color: #fbb034;
+}
+
+.icons{
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-container {
+  margin: auto;
+  display: flex;
+  width: 80%;
+}
+
+.about-text-container > h1 {
+  margin: 0px;
+  color: black;
+}
+
+.about-text-container > p {
+  color: black;
+}
+
+.cards {
+  background-color: #025043;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 30% ;
+  overflow: auto;
+}
+
+.cards > div {
+  display: flex;
+  overflow: scroll;
+}
